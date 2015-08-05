@@ -84,3 +84,11 @@ If you don't want to have to recreate the virtual machine every time you
 can use `BEAKER_destroy=no` and `BEAKER_provision=no`. On the first run you will
 at least need `BEAKER_provision` set to yes (the default). The Vagrantfile
 for the created virtual machines will be in `.vagrant/beaker_vagrant_files`.
+
+### Quirks
+
+The integration tests have been tested specifically with ruby-2.1.x
+versions. YMMV with other rubies.
+
+Because we are using the vagrant backend for beaker tests you must use
+bundler <= 1.10.5. This is reflected in the Gemfile.
