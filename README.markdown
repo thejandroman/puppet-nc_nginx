@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/thejandroman/puppet-nc_nginx.svg?branch=master)](https://travis-ci.org/thejandroman/puppet-nc_nginx)
+
 The solution uses some preexisting modules so as not to reinvent the
 wheel:
 
