@@ -9,7 +9,6 @@ rvm:
   - 2.1.0
 script: bundle exec rake test
 env:
-  - PUPPET_VERSION="~> 2.7.0"
   - PUPPET_VERSION="~> 3.2.0"
   - PUPPET_VERSION="~> 3.3.0"
   - PUPPET_VERSION="~> 3.4.0"
