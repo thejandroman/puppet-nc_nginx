@@ -28,3 +28,5 @@ expanded/changed to allow for
 [any backend that beaker supports](https://github.com/puppetlabs/beaker/wiki/Creating-A-Test-Environment#supported-virtualization-providers). To
 learn more about how the tests work please see
 [CONTRIBUTING.md](https://github.com/thejandroman/puppet-nc_nginx/blob/master/CONTRIBUTING.md).
+
+All tests have been run against Ubuntu 12.04, Ubuntu 14.04, CentOS 7, and CentOS 6.6.
