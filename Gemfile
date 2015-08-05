@@ -19,5 +19,6 @@ end
 group :system_tests do
   gem 'beaker'
   gem 'beaker-rspec'
-  gem 'bundler', '<= 1.10.5'
+  # gem 'bundler', '<= 1.10.5' # Ensure your version matches if
+  # running beaker tests
 end
