@@ -25,7 +25,7 @@ describe 'nc_nginx' do
           it { is_expected.to contain_class('nginx') }
           it do
             is_expected.to contain_vcsrepo('/srv/www') \
-              .that_notifies('Service[nginx]')
+              .that_notifies('Service[nginx]') \
               .that_requires('Package[nginx]')
           end
           it { is_expected.to contain_nginx__resource__vhost('nc_nginx') }
